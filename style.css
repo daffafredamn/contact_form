@@ -1,0 +1,105 @@
+/* Gaya CSS untuk formulir */
+.form-title {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+body {
+    font-family: 'Times New oman', Times, serif, sans-serif;
+    background-image: url("gradientback.jpg"); /* Ganti dengan nama file gambarmu */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    min-height: 100vh;
+}
+
+form {
+    background-color:  rgba(0, 0, 0, 0);
+    padding: 30px;
+    margin: 100 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 75%;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #229ebd;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0877d1;
+}
+
+.gender-option {
+    display: inline-block; /* Membuat elemen berada dalam satu baris */
+    margin-right: 10px; /* Memberikan jarak antara opsi */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 50%; /* Sesuaikan lebar kotak */
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
